@@ -9,5 +9,5 @@ while True:
              print "Gitareczka."
              time.sleep(0.5)
        elif i==1:               #When output from motion sensor is HIGH
-             print "Intruz kurwa!",i
+             print "Jest ruch."
              time.sleep(0.5)
