@@ -7,7 +7,7 @@ while True:
        i=GPIO.input(17)
        if i==0:                 #When output from motion sensor is LOW
              print "Gitareczka."
-             time.sleep(0.5)
+             time.sleep(1.0)
        elif i==1:               #When output from motion sensor is HIGH
              print "Jest ruch."
-             time.sleep(0.5)
+             time.sleep(1.0)
